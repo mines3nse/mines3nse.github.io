@@ -33,7 +33,7 @@ html, body{
 
 /* background */
 
-background{
+.background .body{
     position: absolute;
     width: 1025px;
     height: 1192px;
@@ -42,7 +42,7 @@ background{
 
 /* Header */
 
-header {
+.header .title {
   background-color: black; /* set the text color to black */
   color: white; /* set the text color to white */
   height: 50px; /* set the height of the top bar */
