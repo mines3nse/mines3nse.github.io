@@ -1,1 +1,10 @@
-print("A")
+.title {
+  font-size: 36px;
+  text-align: center;
+}
+.title .mine {
+  color: white;
+}
+.title .sense {
+  color: green;
+}
