@@ -1,10 +1,16 @@
+header {
+  background-color: black; /* set the text color to black */
+  color: white; /* set the text color to white */
+  height: 50px; /* set the height of the top bar */
+}
+
 .title {
-  font-size: 36px;
-  text-align: center;
+  font-size: 36px; /* set the text size to 36 pixels */
+  text-align: center; /* set the text alignment to the center */
 }
 .title .mine {
-  color: white;
+  color: white; /* set the text color to white */
 }
 .title .sense {
-  color: green;
+  color: green; /* set the text color to green */
 }
