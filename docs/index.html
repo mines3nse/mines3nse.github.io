@@ -1,56 +1,10 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <title>Minesense</title>
-  <style>
-    /* Add some styling for the top bar */
-    .top-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #333;
-      color: #fff;
-      padding: 0 20px;
-      font-family: 'Panton', sans-serif;
-    }
-    .top-bar .logo {
-      font-size: 22px;
-      font-weight: bold;
-      color: #fff;
-    }
-    .top-bar .logo .sense {
-      color: #00c853;
-    }
-    /* Add some styling for the download button */
-    .download-button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #333;
-      color: #fff;
-      font-family: 'Panton', sans-serif;
-      font-size: 18px;
-      border: none;
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-  <!-- Add the top bar with the logo and download button -->
-  <div class="top-bar">
-    <div class="logo">Minesense <span class="sense">sense</span></div>
-    <button class="download-button">Download</button>
-  </div>
-  <!-- Add some content for the website -->
-  <div>
-    <h1>Welcome to Minesense</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut nibh at elit vestibulum placerat. Vivamus lacus sem, mollis eu dolor eu, fringilla ornare magna. Aliquam consectetur lacus in mi suscipit, in iaculis ante eleifend. Suspendisse potenti. Praesent dignissim, sapien vel scelerisque ornare, arcu lectus faucibus est, in ultricies felis diam quis est. Fusce auctor, velit vel tempus faucibus, ligula velit accumsan nisl, vel blandit est lacus in nisi. Proin ut ligula eget magna ultricies porttitor. Proin sit amet mollis diam, id porttitor libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed a diam massa. Quisque sed bibendum odio. Integer ultricies mauris vel condimentum ultricies. Fusce sed lectus velit.</p>
-  </div>
-  <!-- Add some JavaScript to handle the download button click event -->
-  <script>
-    const downloadButton = document.querySelector('.download-button');
-    downloadButton.addEventListener('click', () => {
-      // Perform the download action here
-    });
-  </script>
-</body>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="title">
+      <span class="mine">Mine</span><span class="sense">sense</span>
+    </div>
+  </body>
 </html>
