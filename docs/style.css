@@ -33,16 +33,16 @@ html, body{
 
 /* background */
 
-background{
-position: absolute;
-width: 1025px;
-height: 1192px;
-background: #131313;
+.background{
+    position: absolute;
+    width: 1025px;
+    height: 1192px;
+    background: #131313;
 }
 
 /* Header */
 
-header {
+.header {
   background-color: black; /* set the text color to black */
   color: white; /* set the text color to white */
   height: 50px; /* set the height of the top bar */
