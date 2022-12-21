@@ -55,7 +55,7 @@ background: #131313;
   text-align: center; /* set the text alignment to the center */
 }
 .title .mine {
-  color: white; /* set the text color to white */
+  color: black; /* set the text color to white */
 }
 .title .sense {
   color: green; /* set the text color to green */
