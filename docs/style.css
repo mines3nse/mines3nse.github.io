@@ -1,8 +1,21 @@
+/* background */
+
+.background{
+position: absolute;
+width: 1025px;
+height: 1192px;
+background: #131313;
+}
+
+/* Header */
+
 .header {
   background-color: black; /* set the text color to black */
   color: white; /* set the text color to white */
   height: 50px; /* set the height of the top bar */
 }
+
+/* title */
 
 .title {
   font-size: 36px; /* set the text size to 36 pixels */
