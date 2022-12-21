@@ -1,71 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Minesense</title>
-    <style>
-      /* Add some style to the website */
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-      }
-      
-      /* Style the top bar */
-      .top-bar {
-        background-color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 50px;
-        font-size: 20px;
-      }
-      
-      /* Style the "Minesense" text in the top bar */
-      .top-bar .logo {
-        color: #000;
-        font-family: "Panton", sans-serif;
-      }
-      
-      .top-bar .logo .sense {
-        color: #00b200;
-      }
-      
-      /* Style the download button */
-      .download-button {
-        background-color: #fff;
-        color: #000;
-        border: none;
-        outline: none;
-        font-family: "Panton", sans-serif;
-        font-size: 16px;
-        padding: 10px 20px;
-        cursor: pointer;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Add the top bar -->
-    <div class="top-bar">
-      <!-- Add the "Minesense" text -->
-      <div class="logo">
-        Mine<span class="sense">sense</span>
-      </div>
-      
-      <!-- Add the download button -->
-      <button class="download-button" onclick="downloadFile()">Download</button>
-    </div>
-    
-    <!-- Add some content to the website -->
-    <h1>Welcome to Minesense</h1>
-    <p>Minesense is a website that helps you make sense of the world around you.</p>
-    
-    <script>
-      // Define the downloadFile function
-      function downloadFile() {
-        // Replace "file.txt" with the URL of the file you want to download
-        window.location.href = "file.txt";
-      }
-    </script>
-  </body>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Minesense</title>
+</head>
+<body>
+  <div id="topbar">
+    <h1 id="logo">Minesense</h1>
+    <button id="download-button">Download</button>
+  </div>
+</body>
 </html>
