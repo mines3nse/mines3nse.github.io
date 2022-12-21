@@ -33,7 +33,7 @@ html, body{
 
 /* background */
 
-.background{
+background{
     position: absolute;
     width: 1025px;
     height: 1192px;
@@ -42,10 +42,11 @@ html, body{
 
 /* Header */
 
-.header .title {
+header {
   background-color: black; /* set the text color to black */
   color: white; /* set the text color to white */
   height: 50px; /* set the height of the top bar */
+  background: #131313;
 }
 
 /* title */
@@ -55,7 +56,7 @@ html, body{
   text-align: center; /* set the text alignment to the center */
 }
 .title .mine {
-  color: black; /* set the text color to white */
+  color: white; /* set the text color to white */
 }
 .title .sense {
   color: green; /* set the text color to green */
