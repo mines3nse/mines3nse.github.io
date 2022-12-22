@@ -49,6 +49,7 @@ body::before {
   justify-content: center;
   height: calc(100vh - 0px);
   flex-direction: column;
+  padding-left: 200px;
 }
 .content h1 {
   color: white;
