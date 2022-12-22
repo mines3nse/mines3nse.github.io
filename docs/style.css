@@ -59,7 +59,7 @@ body::before {
 .content p {
   color: white;
   font-size: 18px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .content .button {
@@ -75,30 +75,47 @@ body::before {
   background-color: grey;
 }
 
+.video-container {
+  display: flex; /* Display the video container as a flex container */
+  justify-content: center; /* Center the video container horizontally within its parent element */
+  align-items: center; /* Center the video container vertically within its parent element */
+  margin: 20px 0;
+}
+
+.video-container iframe {
+  width: 640px; /* Set the width of the video player to 640 pixels */
+  height: 360px; /* Set the height of the video player to 360 pixels */
+}
+
+
 .features {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
   gap: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.feature {
+.features .feature {
   width: 300px;
   text-align: center;
   margin: 20px;
 }
 
-.feature img {
+.features .feature img {
   width: 100%;
   margin-bottom: 20px;
 }
 
-.feature h2 {
+.features .feature h2 {
   font-size: 24px;
   margin: 10px 0;
+  color: white;
 }
 
-.feature p {
+.features .feature p {
   font-size: 16px;
   color: grey;
 }
@@ -109,21 +126,18 @@ body::before {
   color: white;
   padding: 20px;
   text-align: center;
+  display: none; /* Set the display of the "cta" class to none */
+  visibility: hidden; /* Set the visibility of the "cta" class to hidden */
+  opacity: 0; /* Set the opacity of the "cta" class to 0 */
+  transition: display 0s linear 0.5s, visibility 0s linear 0.5s, opacity 0.5s linear; /* Set the transition properties for the "cta" class */
 }
 
-.cta .features {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.cta h2 {
+.cta .h2 {
   font-size: 36px;
   margin: 0;
 }
 
-.cta p {
+.cta .p {
   font-size:
 18px;
   margin: 20px 0;
@@ -155,6 +169,4 @@ body::before {
 
 .footer .copyright {
   font-size: 14px;
-}
-
 }
