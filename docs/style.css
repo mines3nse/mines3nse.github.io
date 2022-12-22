@@ -111,13 +111,13 @@ body::before {
 }
 
 .features .feature h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin: 10px 0;
   color: white;
 }
 
 .features .feature p {
-  font-size: 20px;
+  font-size: 18px;
   color: grey;
 }
 
