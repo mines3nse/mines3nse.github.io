@@ -1,0 +1,172 @@
+/* Add your CSS styles here */
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #b8f2b3;
+  border-radius: 10px;
+}
+
+/* Style the scrollbar thumb when hovered over */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a4e4a4;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #131313;
+}
+
+body::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  background-color: #131313;
+  opacity: 0.1;
+}
+
+.content {
+  background-image: url('./Resources/Images/Cheat.png');
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 0px);
+  flex-direction: column;
+}
+.content h1 {
+  color: white;
+  font-size: 36px;
+  margin: 0;
+}
+
+.content p {
+  color: white;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.content .button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content .button:hover {
+  background-color: grey;
+}
+
+.video-container {
+  display: flex; /* Display the video container as a flex container */
+  justify-content: center; /* Center the video container horizontally within its parent element */
+  align-items: center; /* Center the video container vertically within its parent element */
+  margin: 20px 0;
+}
+
+.video-container iframe {
+  width: 640px; /* Set the width of the video player to 640 pixels */
+  height: 360px; /* Set the height of the video player to 360 pixels */
+}
+
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features .feature {
+  width: 300px;
+  text-align: center;
+  margin: 20px;
+}
+
+.features .feature img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.features .feature h2 {
+  font-size: 40px;
+  margin: 10px 0;
+  color: white;
+}
+
+.features .feature p {
+  font-size: 20px;
+  color: grey;
+}
+
+.cta {
+  background-color: rgba(19, 19, 19, 0);
+  z-index: 1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: none; /* Set the display of the "cta" class to block */
+  visibility: hidden; /* Set the visibility of the "cta" class to visible */
+  opacity: 0; /* Set the opacity of the "cta" class to 0 */
+  transition: opacity 3s linear;
+}
+
+.cta .h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.cta .p {
+  font-size:
+18px;
+  margin: 20px 0;
+}
+
+.cta .button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cta .button:hover {
+  background-color: grey;
+}
+
+.footer {
+  background-color: #333333;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  opacity: 0.3;
+}
+
+.footer .copyright {
+  font-size: 14px;
+}
