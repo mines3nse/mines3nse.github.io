@@ -39,7 +39,6 @@ body::before {
 }
 
 .content {
-  background-image: url('./Resources/Images/Cheat.png');
   background-size: 45%;
   background-position: center;
   background-repeat: no-repeat;
