@@ -1,5 +1,6 @@
 /* Add your CSS styles here */
 
+
 /* Style the scrollbar track */
 ::-webkit-scrollbar {
   width: 10px;
@@ -70,10 +71,23 @@ body::before {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
+  animation: button-animation 0.3s linear;
 }
 
 .content .button:hover {
   background-color: grey;
+}
+
+/* Define the "button-animation" animation */
+@keyframes button-animation {
+  from {
+    /* Set the initial state of the animation */
+    transform: scale(1);
+  }
+  to {
+    /* Set the final state of the animation */
+    transform: scale(1.1);
+  }
 }
 
 .video-container {
@@ -153,10 +167,23 @@ body::before {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
+  animation: button-animation 0.3s linear;
 }
 
 .cta .button:hover {
   background-color: grey;
+}
+
+/* Define the "button-animation" animation */
+@keyframes button-animation {
+  from {
+    /* Set the initial state of the animation */
+    transform: scale(1);
+  }
+  to {
+    /* Set the final state of the animation */
+    transform: scale(1.1);
+  }
 }
 
 .footer {
