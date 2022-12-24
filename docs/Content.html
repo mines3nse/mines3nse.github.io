@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+        <title>minesense - the true best</title>
+        <link rel="icon" type="image/x-icon" href="/Resources/Images/ms.ico">
+    </head>
+    <body>
+        <script>
+            function scrollToCTA() {
+                const e = document.querySelector("#cta"),
+                    t = e.getBoundingClientRect().top + window.pageYOffset;
+                window.scroll({ top: t, left: 0, behavior: "smooth" });
+            }
+            function calculateGap() {
+                const e = Math.floor(window.innerWidth / 300),
+                    t = (window.innerWidth - 300 * e) / (e + 1);
+                features.style.gap = t + "px";
+            }
+            const features = document.querySelector(".features");
+            calculateGap(), window.addEventListener("resize", calculateGap);
+            // Add A Thing that changes the opacity of the cta class as the video plays
+        </script>
+        <section id="cta">
+            <div class="video-container">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube-nocookie.com/embed/ZZ5LpwO-An4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
 
+            <div class="cta">
+                <h2>unleash your full potential.</h2>
+                <p>get minesense.</p>
+                <button class="button" download="https://github.com/mines3nse/mines3nse.github.io/blob/main/docs/Downloads/Minesense/Minesense.zip">Download</button>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <img alt="Feature 1" src="./Resources/Images/offline.png"/>
+                    <h2>a truly secure client.</h2>
+                    <p>minesense is brought to you with absolutely zero network connections, except discord integration. this ensures your data stays safe.</p>
+                </div>
+                <div class="feature">
+                    <img alt="Feature 2" src="./Resources/Images/configable.png" />
+                    <h2>packed, yet so good looking.</h2>
+                    <p>everything is configurable, ensuring you'll never lose on any server. the software's visual properties can also be modified.</p>
+                </div>
+                <div class="feature">
+                    <img alt="Feature 3" src="./Resources/Images/undetectable.png" />
+                    <h2>ensured undetectability.</h2>
+                    <p>with minesense, you'll perform so much better, without a single ban. for playing on multiple servers, our config system has got you covered.</p>
+                </div>
+                <div class="feature">
+                    <img alt="Feature 4" src="./Resources/Images/LuaApi.png" />
+                    <h2>next-generation lua scripting api</h2>
+                    <p>minesense gives you the power. custom modules, gui and complex overlays just a few taps away.</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
