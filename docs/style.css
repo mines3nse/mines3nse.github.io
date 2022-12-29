@@ -62,6 +62,11 @@ body::before {
   margin: 20px 0;
 }
 
+.content .image {
+  float: right;
+  margin-left: 10px;
+}
+
 .content .button {
   background-color: black;
   color: white;
@@ -69,6 +74,8 @@ body::before {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  float: left;
+  margin-right: 10px;
   transition: background-color 0.3s;
   animation: button-animation 0.3s linear;
 }
